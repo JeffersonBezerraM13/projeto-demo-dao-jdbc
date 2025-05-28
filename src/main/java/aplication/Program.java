@@ -29,7 +29,7 @@ public class Program {
         list.forEach(System.out::println);
 
         System.out.println("\n=== TEST 4: seller insert ===");
-        Seller seller2 = new Seller(null,"Ana", "ana@gmail.com",new Date(), 2000.00,department);
+        Seller seller2 = new Seller(null,"Cristian", "cristian@gmail.com",new Date(), 2000.00,department);
         sellerDao.insert(seller2);
         System.out.println("Inserted! New Id = " + seller2.getId());
 
